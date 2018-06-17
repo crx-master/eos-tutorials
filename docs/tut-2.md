@@ -1,3 +1,3 @@
-# Register a name for your DAPP
+# Register a name on EOS blockchain
 
 ## TODO

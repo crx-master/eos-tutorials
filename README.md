@@ -16,7 +16,7 @@ using any of these tutorials.
 
 ## Tutorials
 
-1. [Install and configure an EOS wallet software](docs/tut-1.md)
+1. [Install and configure a wallet software](docs/tut-1.md)
 2. [Register a name on EOS blockchain](docs/tut-2.md)
 
 ## Licenses

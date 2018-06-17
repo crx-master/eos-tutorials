@@ -1,18 +1,19 @@
 # EOS Tutorials
 
-Tutorials for [EOS](https://eos.io), the "The Most Powerful Infrastructure for Decentralized Applications" as advertised by the publishers of the software.
+Tutorial documents for [EOS](https://eos.io), the **The Most Powerful Infrastructure for Decentralized Applications** (as advertised by the software publisher :smile:).
 
-## Disclaimer
+## First, the disclaimer
 
-First of all, you must educate yourself to be able to use cryptocurrency software at your own discretion.
+Before getting into action, please read this disclaimer of the tutorial authors.
+
+You **must** educate yourself enough to be able to use cryptocurrency software securely and always at your own discretion.
 
 It's extremely important that you try any new process putting insignificant amounts of money until you know the risks involved and feel comfortable with it.
 
-As with any process involving cryptocurrency, there is a high risk that you can loose all the money involved. You can, for example, loose your private key and get tokens locked forever, or have your private key stolen by fraudlent software or a
-scammer and get your account cleaned.
+As with any process involving cryptocurrency, there is a high risk that you loose all the money involved. You can, for example, loose your private key and lock your tokens forever, or you can have your account cleaned by fraudlent software or by a
+scammer that manage to steal your private key.
 
-Simply do a great favor for yourself by getting to know what you are doing **before**
-using any of these tutorials.
+Simply do a great favor for yourself by getting to know what you are doing **before** using any of these tutorials.
 
 ## Tutorials
 

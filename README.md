@@ -13,7 +13,7 @@ It's extremely important that you try any new process putting insignificant amou
 As with any process involving cryptocurrency, there is a high risk that you loose all the money involved. You can, for example, loose your private key and lock your tokens forever, or you can have your account cleaned by fraudlent software or by a
 scammer that manage to steal your private key.
 
-Simply do a great favor for yourself by getting to know what you are doing **before** using any of these tutorials.
+Do a great favor for yourself by examining and getting to know what you will do at **every** step of these tutorials.
 
 ## Tutorials
 
@@ -24,4 +24,4 @@ Simply do a great favor for yourself by getting to know what you are doing **bef
 
 * For the documents, [EOS Tutorials](https://github.com/crx-master/eos-tutorials) 
 by [CRX Master](https://github.com/crx-master) are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png);
-* For software, [EOS Tutorials](https://github.com/crx-master/eos-tutorials) are licensed under a [MIT License](LICENSE).
+* For software, [EOS Tutorials](https://github.com/crx-master/eos-tutorials) by [CRX Master](https://github.com/crx-master) are licensed under a [MIT License](LICENSE).

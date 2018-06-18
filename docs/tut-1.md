@@ -9,20 +9,28 @@ So, for this purpose, always use an auditable open source code software, and alw
 
 For this tutorials, we chose to use [Scatter](https://github.com/EOSEssentials/Scatter), a browser extension that works with Google Chrome or Firefox.
 
-# Steps
+# Installation
 
 1. On a machine with Google Chrome installed, add Scatter extension from [chrome web store](https://chrome.google.com/webstore/detail/scatter/ammjpmhgckkpcamddpolhchgomcojkle)
 
 2. Click on the new chrome toolbar icon  
 ![Scatter initial screen](img/tut-01-scatter-ini.png)
 
-3. Create and confirm a very strong password to protect the Scatter local data storage. Use **at least 12** lower and uppercase letters, numbers **and** special characters. Click on "Create New Scatter" button;
+3. Create and confirm a very strong password to protect the Scatter local data storage. Use **at least 12** lower and uppercase letters, numbers **and** special characters. Click on "Create New Scatter" button. This example uses a really long the password `xC4Km*zAn$as8!!v$fRHqcDxumW2u#QP`;
 
-4. Write down securely the **12 words** that backup the new seed.  
+4. Scatter now creates a cryptographic seed and shows you a mnemonic phrase. Write it down carefully, **every one of the twelve words in the very same order** (line by line).  
 ![Scatter mnemonic 12 words](img/tut-01-scatter-mnemonic.png)  
-These 12 words are (almost) randomly selected from a 2,048 english words list of the [BIP39 standard](https://en.bitcoin.it/wiki/Mnemonic_phrase). The BIP39 gives you the capacity to regenerate the cryptographic seed that Scatter have just created.  
-This can be a life saving resource in the case you loose your password or if you loose the installation data (ex.: 
-a hard drive wipe with no backup or loosing your entire laptop).  
-If at this point you are wondering if just twelve words from a previously agreed list is really secure, just realize that the number of possible combinations for 12 words would be 2048^12 = 2^132. As the BIP39 phrase [is not truly random](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki#Generating_the_mnemonic), we end getting 128-bit security or ~340,282,366,920,938,463,463,374,607,431,770,000,000 possible combinations. This is approximately the same security you get from a regular Bitcoin wallet. So, it really is **a lot** easier to find your wrote down seed words than to guess it, even using extremely powerful computers. **Store it securely!** 
+These twelve words are (almost) randomly selected from a 2,048 english words list of the [BIP39 standard](https://en.bitcoin.it/wiki/Mnemonic_phrase). The BIP39 gives you the capacity to regenerate the cryptographic seed that Scatter have just created and will cover up you if you forget your password. BUT, different from wallets implementations on other blockchains, you **cannot** recover your entire Scatter just using the mnemonic phrase. In the case you loose Scatter data (ex.: a hard drive wipe or loosing your entire laptop), you will really need **a backup file** (wich we will cover soon) **AND one of the two: 1) your password OR 2) your mnemonic phrase**.  
+If you create a new Scatter from zero with the same password, it will give you the same mnemonic. If you change your password, Scatter will change your mnemonic phrase.
 
-5. Import the private key of your EOS account to Scatter.
+# Backup and test
+
+5. Now read Scatter disclaimer and then click in "**Skip Basic Setup**", as our objective is to create and test a backup file!  
+![Scatter welcome](img/tut-01-scatter-welcome.png)
+
+6. At this point you really already know how important is to keep you private key **private**, so let's create our first key pair! As a matter of fact, you create only a random private key, as the
+public key mathmatically generated from it.  
+Differently from Bitcoin and other blockchains *[deterministic wallets](https://en.bitcoin.it/wiki/Deterministic_wallet)* Scatter will create a totally random private key that has nothing to do with your password or mnemonic phrase. So click
+in the "Key Pairs" link, give a cool name to your new key pair and click in "Generate", in "Copy" (if you want to save your private key elsewhere) and then in "Save". In this example, scatter created:
+`Private Key: 5K4PEv5RJcA7LtFaHCqZpajTQbasEXKWH8692RaQMCC1YxTBGtF` and `Public Key: EOS6vmtbSxZM4oDgpTxzVV62U1hHj1ZEyzhVJuvCMAzA8KZq6g3CA`  
+![Scatter welcome](img/tut-01-scatter-new-key-pair.png)
